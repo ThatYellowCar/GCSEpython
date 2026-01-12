@@ -1,0 +1,27 @@
+#variables explained
+
+#variables definition:
+#A named location
+#in a computers memory
+#That stores a value
+#And that value can change
+
+#e.g:
+name = "William" #this is a variable
+#the variable is called "name"
+#the variable contains a value, "William" long for I am Will
+age = 14
+favourite_football_team = "Middlesbrough" #pronounced "bruh" to show how mid they are
+IQ = 67.67
+favourite_food = "anything that is edible"
+
+
+Character = "w"
+Float = 3.141592658589
+Integer = 45
+Boolean = False
+String = "hDHi8yd3hYEW"
+
+print(name, "is", age, ",his favourite team in the world is", favourite_football_team)
+print("His IQ is", IQ)
+print("He will always eat", favourite_food)
