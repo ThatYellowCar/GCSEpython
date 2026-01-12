@@ -1,0 +1,12 @@
+#input explained
+#input is another function
+#here is an example
+name=str(input("What is your name? "))#casting for string
+print("Your name is", name)
+age = int(input("How old are you? "))#casting for integer
+print("You are", age , "years old ")
+float = float(input("Give me the first 8 digits of pi or you lose. "))#casting for float
+if float == "3.1415926":
+    print("That is true. Well done!")
+else:
+    print("That is false. You lose! Now you die.")
