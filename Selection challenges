@@ -1,0 +1,10 @@
+number1=int(input("Give me a random ahh number: "))
+number2=int(input("Give me another random ahh number pretty please: "))
+if number1>number2:
+    print(number1)
+    print(number2)
+elif number1 == number2:
+    print("Nice one you found the secret hack")
+else:
+    print(number2)
+    print(number1)
