@@ -8,3 +8,80 @@ elif number1 == number2:
 else:
     print(number2)
     print(number1)
+
+------------------------------------------------------------------------------
+
+number1 = int(input("Give me a random ahh number BELOW 20: "))
+if number1 < 20:
+    print("nice one")
+elif number1 == 20:
+    print("You didnt read the question properly but I'll let it slide")
+else:
+    print("HOW DARE YOU DISOBEY ME! YOU WILL BE SENTENCED TO LIFE IN PRISON!")
+
+-----------------------------------------------------------------------------
+
+number = int(input("Give me a random ahh number between 10 and 20: "))
+if number > 10 and number < 20:
+    print("Nice one!")
+elif number == 10:
+    print("I said between buddy try again")
+    number = int(input("Give me another random ahh number between 10 and 20: "))
+    if 10 < number > 20:
+        print("Nice second try!")
+    elif number == 20:
+        print("You got it wrong but i dont really care anymore")
+    elif number == 10:
+        print("You got it wrong but i dont really care anymore")
+    else:
+        print("I give up how can you get it wrong 2 times in a row")
+
+elif number == 20:
+    print("I said between buddy try again")
+    number = int(input("Give me another random ahh number between 10 and 20: "))
+    if 10 < number > 20:
+        print("Nice second try!")
+    elif number == 20:
+        print("You got it wrong but i dont really care anymore")
+    elif number == 10:
+        print("You got it wrong but i dont really care anymore")
+    else:
+        print("I give up how can you get it wrong 2 times in a row")
+else:
+    print("Bruh are you stupid?")
+             
+----------------------------------------------------------------------------
+
+rain = str(input("Is it raining today?(y/n)")).lower()
+if rain == "y":
+    wind = str(input("Is it windy today?(y/n)")).lower()
+    if wind == "y":
+        print("It is too windy for an umbrella lah")
+    else:
+        print("Remember to take an umbrella")
+else:
+    print("Enjoy your day")
+
+----------------------------------------------------------------------------
+
+age=int(input("What is your age? "))
+if age >= 18:
+    print("You can vote")
+if age == 17:
+    print("You can drive")
+if age == 16:
+    print("You cna buy lottery ticket")
+if age <16:
+    print("You can go trick o treating")
+
+---------------------------------------------------------------------------
+
+number = int(input("Pick a number 1, 2, or 3."))
+if number == 1:
+    print("Good choice!")
+elif number == 2:
+    print("Nice choice!")
+elif number == 3:
+    print("Amazing choice!")
+else:
+    print("You crazy cow! Read the question!")
