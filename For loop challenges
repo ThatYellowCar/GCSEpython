@@ -1,0 +1,31 @@
+name = input("What is your name? ")
+for i in range(3):
+    print(name)
+
+----------------------------------------------------------
+
+name = str(input("What is your name? "))
+num = int(input("Choose a number "))
+for i in range(num):
+    print(name)
+
+----------------------------------------------------------
+
+name = str(input("What is your name? "))
+for i in (name):
+    print(i)
+
+----------------------------------------------------------
+
+number = int(input("Enter a number between 1 and 12 "))
+for i in range(number, 130, number):
+    print(i)
+
+---------------------------------------------------------
+
+num= int(input("name a number below 50: "))
+for i in range(num,0,-1):
+    print(i)
+
+--------------------------------------------------------
+
