@@ -1,0 +1,16 @@
+rhyme = input("Enter the first line of a nursery rhyme: ")
+length = (len(rhyme))
+print("This rhyme has", length, "of characters in it")
+FL = int(input("Enter a random starting number: "))
+LL = int(input("Enter a random ending number: "))
+print(rhyme[FL:LL])
+--------------------------------------------------------------------------------
+firstname=input("Enter your first name in lower case: ")
+space = " "
+secondname = input("Enter your second name in lower case: ")
+fullname = firstname+space+secondname
+print(fullname)
+------------------------------------------------------------------------------
+word = input("Input a random string how ever many characters you want: ")
+print(len(word))
+-------------------------------------------------------------------------------
