@@ -1,0 +1,10 @@
+myspacecompany = []
+spacev1 = input("Give me a space vehicle")
+spacev2 = input("Give me a space vehicle")
+spacev3 = input("Give me a space vehicle")
+myspacecompany.append([spacev1, spacev2, spacev3])
+print(myspacecompany)
+
+ -------------------------------------------------------
+
+ 
